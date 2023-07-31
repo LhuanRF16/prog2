@@ -32,8 +32,4 @@ int main(){
 
     printf("variancia = %.4f",variancia/(tamanho - 1));
 
-
-
-
-
 }

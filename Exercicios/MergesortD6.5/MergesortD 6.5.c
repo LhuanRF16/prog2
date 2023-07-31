@@ -28,8 +28,7 @@ void intercala(int p,int q ,int r , int v[]){
         k++;
     }
     for (i = p; i < r; i++)
-        v[i] = w[i-p];
-   
+        v[i] = w[i-p]; 
 }
 
 void mergesort(int p, int r, int v[]){
@@ -41,7 +40,6 @@ void mergesort(int p, int r, int v[]){
         intercala(p, q, r, v);
     }
 }
-
 
 
 int main(){
